@@ -5,6 +5,58 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  color: red;
+.section_one {
+  height: 100vh;
+  width: 100%;
+  background-color: #010313;
+}
+
+.s_one_container {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("images/background.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_contain {
+  height: auto;
+  width: 70%;
+  color: white;
+  align-items: center;
+}
+.text_contain h1 {
+  font-size: 7rem;
+  text-align: center;
+  font-family:Impact;
+}
+.text_contain p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 30px;
+}
+.paly_btn {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paly_btn button {
+  height: 45px;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.paly_btn button:hover {
+  background-color: rgb(220, 220, 220);
+}
+.paly_btn button:active {
+  background-color: rgb(190, 190, 190);
 }
