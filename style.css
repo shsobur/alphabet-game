@@ -5,10 +5,18 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Section one styleing ST */
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #010313
+}
+
 .section_one {
   height: 100vh;
   width: 100%;
-  background-color: #010313;
 }
 
 .s_one_container {
@@ -60,3 +68,144 @@
 .paly_btn button:active {
   background-color: rgb(190, 190, 190);
 }
+
+/* Section one styleing END */
+
+
+
+/* Section Two styleing ST */
+
+.section_two {
+  height: 100vh;
+  width: 100%;
+}
+
+.s_two_container {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/background.png');
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  height: 100%;
+  width: 70%;
+}
+
+.screen_container {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.screen {
+  height: 100%;
+  width: 90%;
+  border: 10px solid #242634;
+  border-radius: 8px;
+  background-color: #b2b3b898;
+}
+
+.keybord_container {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keybord_border {
+  height: 80%;
+  width: 55%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6c4;
+}
+
+.keybord {
+  height: auto;
+  width: 90%;
+}
+.key_container_one {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.key_container_two {
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-around;
+}
+
+.key_container_three {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.key {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 8px;
+  background-color: #ffffff;
+}
+.key:hover {
+  background-color: #ffa500;
+}
+.key:active {
+  background-color: #db8f00;
+}
+
+
+.score {
+  height: 20%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  height: 40%;
+  width: 20%;
+  margin-left: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: #894189;
+}
+.left p {
+  padding-top: 13px;
+  padding-left: 20px;
+}
+
+.right {
+  height: 40%;
+  width: 20%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-color: #360490;
+}
+.right p {
+  padding-top: 13px;
+  padding-left: 20px;
+}
+
+/* Section Two styleing END */
