@@ -11,20 +11,21 @@
 main {
   height: 100vh;
   width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("images/background.png");
   background-color: #010313
 }
 
 .section_one {
   height: 100vh;
   width: 100%;
+  display: none;
 }
 
 .s_one_container {
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("images/background.png");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,14 +79,12 @@ main {
 .section_two {
   height: 100vh;
   width: 100%;
+  display: none;
 }
 
 .s_two_container {
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('images/background.png');
   display: flex;
   justify-content: center;
 }
@@ -258,9 +257,6 @@ main {
 .s_three_container {
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('images/background.png');
   display: flex;
   align-items: center;
   justify-content: center;
@@ -290,3 +286,5 @@ main {
   font-size: 1.2rem;
   padding-top: 30px;
 }
+
+/* Section Three styleing END */
