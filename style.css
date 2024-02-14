@@ -246,3 +246,47 @@ main {
 
 
 /* Section Two styleing END */
+
+
+/* Section Three styleing ST */
+
+.section_three {
+  height: 100vh;
+  width: 100%;
+}
+
+.s_three_container {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/background.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score_contain {
+  height: 50%;
+  width: 30%;
+  border-radius: 8px;
+  background: linear-gradient(-45deg, #320d7a, #b893ec);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details h2 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+
+.details p {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 30px;
+}
