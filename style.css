@@ -108,7 +108,43 @@ main {
   border: 10px solid #242634;
   border-radius: 8px;
   background-color: #b2b3b898;
+  display: flex;
+  justify-content: center;
 }
+
+.screen_info {
+  height: 100%;
+  width: 60%;
+}
+
+.top_info {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.aleart {
+  height: 50%;
+  width: 65%;
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #242634;
+}
+.bottom_info {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.letter p {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
 
 .keybord_container {
   height: 40%;
@@ -207,5 +243,6 @@ main {
   padding-top: 13px;
   padding-left: 20px;
 }
+
 
 /* Section Two styleing END */
