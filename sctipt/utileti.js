@@ -15,3 +15,8 @@ function setBackgroundColor(elementId){
   const element = document.getElementById(elementId);
   element.setAttribute("style", "background-color: #ffa500;");
 }
+
+function removeBackgroundColor(elementId){
+  const element = document.getElementById(elementId);
+  element.removeAttribute("style", "background-color: #ffa500;");
+}
