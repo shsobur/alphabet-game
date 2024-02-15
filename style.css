@@ -20,7 +20,6 @@ main {
 .section_one {
   height: 100vh;
   width: 100%;
-  display: none;
 }
 
 .s_one_container {
@@ -79,7 +78,6 @@ main {
 .section_two {
   height: 100vh;
   width: 100%;
-  display: none;
 }
 
 .s_two_container {
@@ -198,13 +196,6 @@ main {
   padding-top: 8px;
   background-color: #ffffff;
 }
-.key:hover {
-  background-color: #ffa500;
-}
-.key:active {
-  background-color: #db8f00;
-}
-
 
 .score {
   height: 20%;

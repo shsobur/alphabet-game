@@ -10,3 +10,8 @@ function getRendomAlphabet(){
   const randomAlphabet = alphabets[index];
   return randomAlphabet;
 }
+
+function setBackgroundColor(elementId){
+  const element = document.getElementById(elementId);
+  element.setAttribute("style", "background-color: #ffa500;");
+}
