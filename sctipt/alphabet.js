@@ -1,6 +1,9 @@
 function handalKeybordUpEvent(event) {
   const playerPressd = event.key;
 
+  if (playerPressd === "Escape") {
+    gameOver();
+  }
 
   const currentAlphabateElement = document.getElementById('current_alpabate');
   const exptctedAlphabate = currentAlphabateElement.innerText;
@@ -24,6 +27,10 @@ function handalKeybordUpEvent(event) {
 
     const newLife = currentLife - 1;
     currentLifeElement.innerText = newLife;
+
+    if (newLife === 0) {
+      gameOver();
+    }
   }
 }
 
@@ -51,4 +58,19 @@ function play(){
   playGround.removeAttribute("style", "display: none");
 
   continueGame();
-} 
+}
+
+function playAgain(){
+  let scoreBord = document.getElementById('finial_score');
+  scoreBord.setAttribute("style", "display: none;");
+
+  let playGround = document.getElementById('play_ground');
+  playGround.removeAttribute("style", "display: none;");
+
+  setElementValueById('current_life', 5);
+  setElementValueById('current_score', 0);
+
+  
+
+  continueGame()
+}
